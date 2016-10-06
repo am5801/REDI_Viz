@@ -1,0 +1,5 @@
+# New York City's Resilience to Emergencies & Disasters Index (REDI)
+
+The proposed Resilience to Emergencies and Disasters Index (REDI) is a normalized score (1 - 100) for each Census Tract's resilience capacity with respect to the City average. The REDI score measures each neighborhood's ability to "bounce back" from an emergency situation or disaster event with a score of 100 representing maximum resilience capacity. Darker blue represents greater resilience capacity, while darker red represents greater vulnerability. 24 indicator variables (described below) were selected to form the REDI score for each tract. These variables were placed into 4 categories: Social Infrastructure & Community Connectivity, Physical Infrastructure, Economic Strength, and Environmental Conditions. The "Equal Weights" score was calculated by assigning the same weight to all 24 variables without considering the 4 categories. The "Categorical Weights" score was calculated by summing up the normalized REDI scores for each of the 4 categories, and then normalizing the sum to a 1-100 scale.
+
+Visual Demo can be found [here](http://am5801.github.io/REDI_Viz/).
